@@ -1,0 +1,248 @@
+.clear:after{
+    content: '';
+    width:0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+body{
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+*{
+	box-sizing: border-box;
+}
+.neikuan{
+    width: 980px;
+    margin: 0 auto;
+}
+/*header开始*/
+header{
+    width: 100%;
+    height: 182px;
+    position: relative;
+}
+/*logo开始*/
+.logo{
+    width: 100%;
+    position: absolute;
+    height: 130px;
+    top: 0;
+    z-index: 20;
+}
+.logo a{
+    display: block;
+    width: 350px;
+    height: 130px;
+    margin-left: 327px;
+}
+/*nav开始*/
+nav{
+    height: 52px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -490px;
+    z-index: 20;
+}
+.navbox{
+    width: 100%;
+    height: 52px;
+    background: #0f7d3b;
+}
+.navbox li{
+    float: left;
+    position: relative;
+}
+.navbox li a{
+    display: block;
+    padding: 0 40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 52px;
+}
+.navbox li:nth-child(1){
+    width: 116px;
+}
+.navbox li:nth-child(3){
+    background: #005422;
+}
+.navbox li:hover{
+    background: #005422;
+}
+.navbox .xl{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    z-index: 20;
+    background: #005422;
+    overflow: hidden;
+}
+.navbox .xl dl{
+    border-bottom: 1px solid #0f7d3b;
+}
+.navbox .xl dl:hover{
+    background: #0f7d3b;
+}
+.navbox .xl dl a{
+    display: block;
+    padding: 0 30px;
+}
+/*nav结束*/
+
+/* 简介开始 */
+.jjbox{
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #eee;
+    border-top: none;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 40px;
+}
+.jjbox h1{
+    float: left;
+    font-weight: normal;
+    width: 213px;
+    padding-left: 16px;
+    color: #212121;
+    font-size: 18px;
+}
+.jjbox ul{
+    float: right;
+    height: 47px;
+}
+.jjbox ul li{
+    float: left;
+    height: 44px;
+    border-bottom: 3px solid #fff;
+}
+.jjbox ul li:hover{
+    border-bottom: 3px solid #0f7d3b;
+}
+.jjbox ul li a{
+    padding: 0 15px;
+    color: #727272;
+}
+.jjbox ul li:nth-child(2){
+    border-bottom: 3px solid #0f7d3b;    
+}
+/* main开始 */
+.m1z{
+    width: 54%;
+    float: left;
+}
+.m1z .p1{
+    margin-bottom: 20px;
+}
+.m1z .p1 h1{
+    color: #666;
+}
+.m1z .p1 h2{
+    color: #727272;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;  
+}
+.m1y{
+    float: right;
+}
+.m2{
+    font-size: 14px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #b2adad;
+}
+.m3{
+    margin: 50px 0;
+}
+.m3 h1{
+    color: #666;
+}
+.m3 p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+/* 线开始 */
+.xian{
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+/*底部开始*/
+.db{
+    padding: 40px 0;
+    background: #fff;
+    margin-top: 30px;
+}
+.db dl{
+    float: left;
+    padding: 0 20px;
+    text-align: left;
+    border-right: 1px solid #EDEDED;
+    margin-right: 40px;
+    float: left;
+    width: 143px;
+    height: 118px;
+}
+.db dt{
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-bottom: 16px;
+}
+.db dd{
+    font-size: 14px;
+    color: #B2B2B2;
+    margin-bottom: 8px;
+}
+.db dd a{
+    font-size: 14px;
+    color: #B2B2B2;
+    margin-bottom: 8px;
+}
+.db dd a:hover{
+    color: #000;
+}
+.db .dl2{
+    width: 246px;
+    padding: 0px 20px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #565656;
+    float: right;
+}
+.db .dl2 h1{
+    font-weight: 700;
+    color: rgb(0, 176, 80);
+    font-size: 20px;
+}
+.db .dl2 h2{
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    font-weight: normal;
+    line-height: 18px;
+}
+.db .dl2 h3{
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    font-weight: normal;
+    margin-top: 16px;
+}
+/* footer开始 */
+footer{
+    padding: 0px 0 20px 0;
+    color: #666;
+    background: #fff;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+footer p:hover{
+    color:rgb(0, 176, 80);
+}
